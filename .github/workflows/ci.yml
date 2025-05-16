@@ -1,0 +1,11 @@
+name: CI Pipeline
+
+on: [push, pull_request]
+
+jobs:
+  placeholder:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Placeholder
+        run: echo "TODO: add build & test steps for client & server"
